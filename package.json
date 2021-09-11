@@ -1,0 +1,23 @@
+{
+  "name": "tg-search-bot",
+  "version": "1.0.0",
+  "description": "A bot to query the internet from telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "telegram",
+    "bot",
+    "query"
+  ],
+  "author": "Aldrin Jenson",
+  "license": "ISC",
+  "dependencies": {
+    "bing-scraper": "^1.4.11",
+    "dotenv": "^10.0.0",
+    "node-telegram-bot-api": "^0.53.0"
+  }
+}
